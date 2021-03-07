@@ -1,0 +1,143 @@
+.world{
+    font-size: 20px;
+    font-family: Verdana;
+    float: right;
+    margin: -20px 15px 0 0;
+    
+}
+.login{
+    width: 90px;
+    height: 30px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    float: right;
+    padding: 10px 0 0 0;
+    margin: -30px 10px 0 0;
+    }
+
+   .menu{
+       width: 100%;
+       height: 49px;
+       background-color:  #4CAF50;
+       margin: 30px 0 0 0;
+   }
+  .menu ul{
+      list-style: none;
+      
+  }
+  .menu ul li{
+      width: 150px;
+      height: 49px;
+      text-align: center;
+      color: white;
+      float: left;
+      font-size: 20px;
+      font-family: Arial;
+      margin: 12px 0 0 0;
+      
+  }
+  .menu ul li:hover{
+      background-color: white;
+      color: black;
+    
+  }
+  .menu ul ul{
+      display: none;
+  }
+  .menu ul li:hover > ul{
+     display: block;
+
+  }
+
+.icons ul li{
+    width: 50px;
+    height: 50px;
+}
+.icons ul li:hover{
+    background-color: inherit;
+}
+
+  .menu2{
+      width: 230px;
+      height: 643px;
+     box-shadow: 2px 2px 2px 2px rgba(165, 165, 165, 0.685);
+     float: left;
+     
+  }
+  
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu2 ul{
+    list-style: none;
+    
+}
+.menu2 ul li{
+    width: 217px;
+    height: 20px;
+    font-family: Arial;
+    margin: 0 0 0 15px;
+}
+.menu2 ul li:hover{
+    background-color: gray;
+}
+.bightml{
+    font-size: 50px;
+    float: left;
+    margin: 120px 100px 0 550px ;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+
+}
+.salam{
+    font-size: 25px;
+    float: left;
+    margin: 180px 100px 0 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+    
+}
+
+.learnhtml{
+    width: 130px;
+    height: 33px;
+    background-color: rgb(88, 88, 88);
+    float: left;
+    margin: 250px 0 0 -480px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 0 0 0;
+    
+}
+.reference{
+    width: 170px;
+    height: 33px;
+    background-color: rgb(88, 88, 88);
+    float: left;
+    margin: 250px 0 0 -330px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.htmlexample{
+    width: 550px;
+    height: 400px;
+    background-color: rgb(238, 234, 234);
+    margin: 70px 0 0 1000px;
+    padding: 30px 0 0 20px;
+    box-shadow: 2px 2px 2px 2px rgba(165, 165, 165, 0.685);
+}
+.htmltable{
+    width: 530px;
+    height: 275px;
+    background-color: white;
+    border-left: #4CAF50 4px solid;
+    margin: 15px 0 10px 0;
+    padding: 5px 0 0 0;
+}
+
