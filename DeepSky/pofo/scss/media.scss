@@ -1,0 +1,12 @@
+@media (min-width: 992px){
+.offset-lg-6 {
+    margin-left: 50%;
+    margin-top: 200px;
+}
+@media (min-width: 992px){
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
