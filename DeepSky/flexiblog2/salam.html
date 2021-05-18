@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+
+    <title>Flexiblog</title>
+
+    <link rel="stylesheet" href="sass/stil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/de1be43056.js" crossorigin="anonymous"></script>
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+</head>
+<body>
+    
+     <header>
+        <div class="container">
+            <div class="row">
+                <div class="hed1 col-md-8 d-flex justify-content-between">
+                    <img src="pics/logo.png" alt="" >
+                    <div class="hedsearch align-self-center">
+                        <div class="input-group">
+                            <div class="input-group-prepend" style="border-right: none;">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Discover news,article and more..." aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                </div>
+                <div class="hednav col-md-4">
+  
+                    <nav class="navbar navbar-expand-lg navbar-light ">
+  
+  
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="black-white" id="mod2">
+                          <i class="fas fa-moon"></i>
+                          <i class="fas fa-circle" id="circleJS"></i>
+                          <i class="fas fa-sun"></i>
+                    </nav>
+                   
+
+                  </div>
+                </div>
+  
+            </div>
+        </div>
+    </header> 
+
+
+
+
+    
+    <!-- PAGE1 SECTION -->
+
+    <section class="page1">
+        <div class="container-fluid">
+            <div class="all">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="leftwords">
+                            <div class="learn">
+                                <h2>Learn React in <span>30 days</span> with great instructors!</h2>
+                                <h3 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h3>
+                            </div>
+                            <button class="b1">Start Learning</button>
+                            <button class="b2">View Tutors</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right">
+                            <img src="pics/download.png">
+                            <div class="rightwords">
+                              
+                                <div class="rowimg row p-2">
+                                  <div class="sll"><i class="fas fa-user-graduate"></i></div>
+                                        
+                                    <div class="sll first">
+                                        <p class="count">250+</p>
+                                        <p class="txt">LESSONS</p>
+                                    </div>
+                                    <div class="sll">
+                                        <p class="count">30+</p>
+                                        <p class="txt">COURSES</p>
+                                    </div>
+                                    <div class="sll">
+                                        <p class="count">15+</p>
+                                        <p class="txt">TUTORS</p>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- PAGE2 SECTION -->
+
+ <section class="page2">
+      <h3>Featured this month</h3>
+
+  <div class="owl-carousel owl-theme">
+      <div class="item">
+          <img src="pics/css.jpg" alt="">
+          <div class="content">
+              <div class="row1 row pt-4 pl-4">
+                  <button style="background-color: #5290af;">CSS3</button>
+              </div>
+              <div class="row2 row pl-4 pt-2">
+                  <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+              </div>
+              <div class="row3 row pl-4 pt-3 pb-3">
+                  <div class="img">
+                      <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                  </div>
+                  <div class="row3-1 pl-3 row flex-column justify-content-around">
+                      <div class="name row">
+                          <p>John Doe</p>
+                      </div>
+                      <div class="date row">
+                          <p>March 20, 2020 </p>
+                          <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="item">
+          <img src="pics/react.png" alt="">
+          <div class="content">
+              <div class="row1 row pt-4 pl-4">
+                  <button style="background-color: #806b94;">Gatsby</button>
+              </div>
+              <div class="row2 row pl-4 pt-2">
+                  <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+              </div>
+              <div class="row3 row pl-4 pt-3 pb-3">
+                  <div class="img">
+                      <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                  </div>
+                  <div class="row3-1 pl-3 row flex-column justify-content-around">
+                      <div class="name row">
+                          <p>John Doe</p>
+                      </div>
+                      <div class="date row">
+                          <p>March 20, 2020 </p>
+                          <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="item">
+          <img src="pics/gatsby2.jpg" alt="">
+          <div class="content">
+              <div class="row1 row pt-4 pl-4">
+                  <button style="background-color: #7b96c8;">React</button>
+              </div>
+              <div class="row2 row pl-4 pt-4">
+                  <h3>Programmatically <br> Create Pages From Data</h3>
+              </div>
+              <div class="row3 row pl-4 pt-3 pb-3">
+                  <div class="img">
+                      <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                  </div>
+                  <div class="row3-1 pl-3 row flex-column justify-content-around">
+                      <div class="name row">
+                          <p>John Doe</p>
+                      </div>
+                      <div class="date row">
+                          <p>March 20, 2020 </p>
+                          <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="item">
+          <img src="https://media.discordapp.net/attachments/838713501240524871/841277666548252682/react.png?width=1206&height=670" alt="">
+          <div class="content">
+              <div class="row1 row pt-4 pl-4">
+                  <button style="background-color: #7b96c8;">React</button>
+              </div>
+              <div class="row2 row pl-4 pt-4">
+                  <h3>Programmatically <br> Create Pages From Data</h3>
+              </div>
+              <div class="row3 row pl-4 pt-3 pb-3">
+                  <div class="img">
+                      <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                  </div>
+                  <div class="row3-1 pl-3 row flex-column justify-content-around">
+                      <div class="name row">
+                          <p>John Doe</p>
+                      </div>
+                      <div class="date row">
+                          <p>March 20, 2020 </p>
+                          <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="item">
+          <img src="https://media.discordapp.net/attachments/838713501240524871/841277657844416512/gatsby2.jpg?width=894&height=670" alt="">
+          <div class="content">
+              <div class="row1 row pt-4 pl-4">
+                  <button style="background-color: #806b94;">Gatsby</button>
+              </div>
+              <div class="row2 row pl-4 pt-4">
+                  <h3>How to use React <br> Context effectively</h3>
+              </div>
+              <div class="row3 row pl-4 pt-3 pb-3">
+                  <div class="img">
+                      <a href=""><img src="https://media.discordapp.net/attachments/838713501240524871/841277682071371847/john-doe.png" alt=""></a>
+                  </div>
+                  <div class="row3-1 pl-3 row flex-column justify-content-around">
+                      <div class="name row">
+                          <p>John Doe</p>
+                      </div>
+                      <div class="date row">
+                          <p>March 20, 2020 </p>
+                          <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+
+          
+           
+               
+ 
+   <!-- SECTION PAGE3 -->
+
+       <section class="page3">
+        <div class="container-fluid">
+            <div class="all">
+                <div class="row">
+                    <div class="col-md-4">
+                            <img src="pics/download (1).png">
+                    </div>
+                    <div class="col-md-8">
+                            <div class="leftwords">
+                                <div class="learn">
+                                    <h2>You can Learn Anything.</h2>
+                                    <h3 >"When I got out of university, I couldn't get a job. But now, I have a job and I am in love with computer science because of Academy.".</h3>
+                                    <h4>Aubree Joyce</h4>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION PAGE4 -->
+
+    <section class="page4">
+        <div class="container-fluid">
+            <h3><strong>|</strong>CSS3</h3>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                                <i class="fab fa-css3-alt"></i>
+                                <h4>CSS Tips</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">CSS3</h5>
+                              <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                              <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                              <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS Tips</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CSS3</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+
+                <div class="w-100"></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                                <i class="fab fa-css3-alt"></i>
+                                <h4>CSS Tips</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">CSS3</h5>
+                              <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                              <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                              <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                            <i class="fab fa-css3-alt"></i>
+                            <h4>CSS Tips</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CSS3</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+
+        </div>
+    </section>
+ 
+
+    <!-- SECTION PAGE 5 -->
+
+    <section class="page5">
+        <div class="container-fluid">
+            <h3><strong>|</strong>Gatsby</h3>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                                <i class="fab fa-guilded"></i>
+                                <h4>Gatsby</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Gatsby</h5>
+                              <p class="card-text">Why Gatsby is better with JavaScript</p>
+                              <p class="card-text"><small class="text-muted">John Doe</small></p>
+                              <p class="card-text"><small class="text-muted2">August 14, 2021</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-guilded"></i>
+                            <h4>Gatsby</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Gatsby</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+
+                <div class="w-100"></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                              <i class="fab fa-guilded"></i>
+                                <h4>Gatsby</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Gatsby</h5>
+                              <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                              <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                              <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-guilded"></i>
+                            <h4>Gatsby</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Gatsby</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+        </div>
+    </section>
+ 
+      <!-- SECTION PAGE 6 -->
+
+      <section class="page6">
+        <div class="container-fluid">
+            <h3><strong>|</strong>JavaScript
+            </h3>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                                <i class="fab fa-js-square"></i>
+                                <h4>JavaScript
+                                </h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">JavaScript
+                            </h5>
+                              <p class="card-text">Why Gatsby is better with JavaScript</p>
+                              <p class="card-text"><small class="text-muted">John Doe</small></p>
+                              <p class="card-text"><small class="text-muted2">August 14, 2021</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-js-square"></i>
+                            <h4>JavaScript
+                            </h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">JavaScript
+                        </h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+
+                <div class="w-100"></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                              <i class="fab fa-js-square"></i>
+                                <h4>JavaScript
+                                </h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">JavaScript
+                            </h5>
+                              <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                              <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                              <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-js-square"></i>
+                            <h4>JavaScript
+                            </h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">JavaScript
+                        </h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+        </div>
+    </section>
+
+      <!-- SECTION PAGE 7 -->
+
+      <section class="page7">
+        <div class="container-fluid">
+            <h3><strong>|</strong>React Tutorial</h3>
+
+            <div class="row">
+                <div class="col">
+
+                    <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                                <i class="fab fa-react"></i>
+                                <h4>React Tutorial</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">React</h5>
+                              <p class="card-text">Why Gatsby is better with JavaScript</p>
+                              <p class="card-text"><small class="text-muted">John Doe</small></p>
+                              <p class="card-text"><small class="text-muted2">August 14, 2021</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-react"></i>
+                            <h4>React Tutorial</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">React</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+
+                <div class="w-100"></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <div class="square">
+                              <i class="fab fa-react"></i>
+                                <h4>React Tutorial</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">React</h5>
+                              <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                              <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                              <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div></div>
+                <div class="col"> <div class="card mb-3" style="max-width: 540px; height: 200px; border-radius: 15px; padding-top: 7px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <div class="square">
+                          <i class="fab fa-react"></i>
+                            <h4>React Tutorial</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">React</h5>
+                          <p class="card-text">30 Useful CSS Examples For Logically Creative Minds</p>
+                          <p class="card-text"><small class="text-muted">Jane Smith</small></p>
+                          <p class="card-text"><small class="text-muted2">July 15, 2020</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div></div>
+              </div>
+        </div>
+    </section>
+
+    <!-- SECTION PAGE8 -->
+
+    <section class="page8">
+        <div class="container-fluid">
+            <div class="all">
+                <header>
+                    Subscribe to our newsletter!
+                   </header>
+                   <div class="text">
+                    We'll send you the best of our blog just once a month. We promise.
+                   </div>
+                   <input placeholder="Email Address">
+                   <button>Subscribe</button>
+            </div>
+          
+        </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-6 col1">
+                  <img src="pics/logo.png" style="width: 150px;margin: 80px 0px 10px;">
+
+                  <p>
+                      © 2021, All Rights Reserved.
+                  </p>
+                  <h6>
+                      <a href="">Powered By</a>
+                      <!-- <img src="pics/gatsby2.jpg" alt="" width="30px"> -->
+                      <i class="fab fa-guilded"></i>
+                      <a href="">Gatsby</a>
+                  </h6>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <h5>Quick Links</h5>
+                  <ul>
+                      <li>
+                          <a href="">Advertise with us</a>
+                      </li>
+                      <li>
+                          <a href="">About Us</a>
+                      </li>
+                      <li>
+                          <a href="">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <h5>Legal Stuff</h5>
+                  <ul>
+                      <li>
+                          <a href="">Privact Notice</a>
+                      </li>
+                      <li>
+                          <a href="">Cookie Policy</a>
+                      </li>
+                      <li>
+                          <a href="">Terms Of Use</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <h5>Social Media</h5>
+                  <ul>
+                      <li>
+                          <i class="fab fa-github"></i>
+                          <a href="">Github</a>
+                      </li>
+                      <li>
+                          <i class="fab fa-twitter"></i>
+                          <a href="">Twitter</a>
+                      </li>
+                      <li>
+                          <i class="fab fa-instagram"></i>
+                          <a href="">Instragram</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
