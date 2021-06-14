@@ -1,0 +1,1859 @@
+body {
+  background-color: #1f1f1f;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0px;
+  background-color: #313131;
+}
+
+.page1 .container-fluid .navbar {
+  position: absolute;
+  z-index: 2;
+  color: white !important;
+}
+
+.page1 .container-fluid .navbar .navbar-nav {
+  margin: 0 0 0 100px;
+}
+
+.page1 .container-fluid .navbar .navbar-nav .nav-link {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px !important;
+}
+
+.page1 .container-fluid .navbar .navbar-nav .nav-link ul li a .fas {
+  color: white !important;
+}
+
+.page1 .container-fluid .navbar .navbar-nav .nav-link:hover {
+  color: #ffb400;
+}
+
+.page1 .carousel-inner img {
+  width: 100%;
+  height: 100vh !important;
+  -webkit-animation: zoom1 5s;
+          animation: zoom1 5s;
+}
+
+@-webkit-keyframes zoom1 {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 105%;
+  }
+}
+
+@keyframes zoom1 {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 105%;
+  }
+}
+
+.page1 .carousel-inner .page1text {
+  position: absolute;
+  z-index: 8;
+  width: 780px;
+  height: 500px;
+  margin: 20% 0 0 25%;
+  text-align: center;
+  color: white;
+}
+
+.page1 .carousel-inner .page1text h1 {
+  font-size: 70px;
+  font-weight: bold;
+  -webkit-animation: slide-left 2s;
+          animation: slide-left 2s;
+}
+
+@-webkit-keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.page1 .carousel-inner .page1text p {
+  -webkit-animation: slide-bottom 2s;
+          animation: slide-bottom 2s;
+}
+
+@-webkit-keyframes slide-bottom {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes slide-bottom {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+.page1 .carousel-inner .page1text button {
+  padding: 5px 20px;
+  margin-top: 50px;
+  height: 40px;
+  background-color: #ffb400;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.page1 .carousel-inner .page1text .fas {
+  position: absolute;
+  opacity: 0;
+  margin: 5px 0 0 -20px;
+}
+
+.page1 .carousel-inner .page1text button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.page1 .carousel-inner .page1text button:hover .fas {
+  opacity: 1;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.page1 .carousel-inner .circle1 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .circle2 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .circle3 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .circle4 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .circle5 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .circle6 {
+  display: none;
+  position: absolute;
+  top: 45%;
+  right: 95px;
+  width: 80px;
+  height: 80px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  z-index: 8;
+}
+
+.page1 .carousel-inner .carousel-item img {
+  -webkit-box-shadow: 20px 20px 50px 10px black inset;
+          box-shadow: 20px 20px 50px 10px black inset;
+  width: 100%;
+  height: 1000px;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+@media only screen and (max-width: 650px) {
+  .page1 .page1text {
+    position: relative;
+    left: -50%;
+    top: 40%;
+  }
+  .page1 .page1text h1 {
+    font-size: 30px !important;
+  }
+}
+
+.container-fluid {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-fluid .sec3head {
+  text-align: center;
+}
+
+.container-fluid .sec3head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid .sec3head h1 span {
+  color: #ffb400;
+}
+
+.container-fluid .sec3head h6 {
+  font-size: 20px;
+  color: white;
+}
+
+.container-fluid .sec3head .outertext {
+  color: #b3b0b0;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid .sec3head .outertext .line1 {
+  background-color: gray;
+  width: 300px;
+  height: 1px;
+}
+
+.container-fluid .sec3head .outertext i {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid .sec3about .leftside {
+  height: 400px;
+  padding-left: 0px;
+}
+
+.container-fluid .sec3about .leftside p {
+  font-size: 15px;
+}
+
+.container-fluid .sec3about .leftside h2, .container-fluid .sec3about .leftside p {
+  color: white;
+}
+
+.container-fluid .sec3about .leftside hr {
+  background-color: #444444;
+}
+
+.container-fluid .sec3about .leftside span {
+  color: white;
+  cursor: pointer;
+}
+
+.container-fluid .sec3about .leftside button {
+  padding: 5px 20px;
+  height: 40px;
+  background-color: #ffb400;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.container-fluid .sec3about .leftside .fas {
+  position: absolute;
+  opacity: 0;
+  margin: 5px 0 0 -20px;
+}
+
+.container-fluid .sec3about .leftside button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.container-fluid .sec3about .leftside button:hover .fas {
+  opacity: 1;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container-fluid .sec3about .leftside .sec3nav .missionnav, .container-fluid .sec3about .leftside .sec3nav .advnav {
+  padding-right: 25px;
+  border-right: 1px solid white;
+}
+
+.container-fluid .sec3about .leftside .sec3nav .advnav, .container-fluid .sec3about .leftside .sec3nav .guarnav {
+  padding-left: 25px;
+}
+
+.container-fluid .sec3about .leftside .sec3nav .missionnav, .container-fluid .sec3about .leftside .sec3nav .guarnav:active {
+  color: #ffb400;
+}
+
+.container-fluid .sec3about .leftside .sec3nav .style1 {
+  color: #ffb400;
+}
+
+.container-fluid .sec3about .leftside #navcontent2, .container-fluid .sec3about .leftside #navcontent3 {
+  display: none;
+}
+
+.container-fluid .sec3about .rightside .imgbox {
+  width: 500px;
+  height: 344px;
+  border: 2px solid #ffb400;
+  border-radius: 5px;
+  float: right;
+  position: relative;
+}
+
+.container-fluid .sec3about .rightside .rightsideimg {
+  width: 500px;
+  height: 344px;
+  background-image: url("http://slimhamdi.net/salimo/demos/img/about.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 650px) {
+  .page2 {
+    height: 1000px;
+    margin: 10% 0 0 0;
+  }
+  .page2 .rightside {
+    margin: 20% 0 0 0;
+    width: 500px;
+  }
+  .page2 .rightside .imgbox {
+    width: 450px !important;
+    height: 190px;
+    position: relative;
+    right: 6%;
+  }
+  .page2 .rightside .rightsideimg {
+    width: 450px !important;
+    height: 190px;
+    position: relative;
+    right: 12%;
+  }
+}
+
+.page3 {
+  position: relative;
+}
+
+.page3 .page3bg {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 850px;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("https://images-ext-1.discordapp.net/external/QlCuignOM0oDmvLa9yiLHIxU5F6WHgW2yPubBvSQS-M/http/slimhamdi.net/salimo/demos/img/sections/projectmanager-bg.jpg?width=1440&height=585");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/QlCuignOM0oDmvLa9yiLHIxU5F6WHgW2yPubBvSQS-M/http/slimhamdi.net/salimo/demos/img/sections/projectmanager-bg.jpg?width=1440&height=585");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page3 .page3about {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  z-index: 3;
+  top: 18%;
+}
+
+.page3 .page3about .page3photo {
+  color: white;
+  width: 440px;
+  height: 440px;
+  border: 12px solid #ffb400;
+  border-radius: 50%;
+  margin: 50px 20px;
+  overflow: hidden;
+}
+
+.page3 .page3about .page3photo img {
+  position: relative;
+}
+
+.page3 .page3txt {
+  color: white;
+}
+
+.page3 .page3txt h1 {
+  color: white;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.page3 .page3txt h3 {
+  color: #ffb400;
+  margin: 10px 0px;
+}
+
+.page3 .page3txt .pdiv {
+  margin: 20px 0;
+  border-left: 7px solid #ffb400;
+  padding-left: 20px;
+}
+
+.page3 .page3txt .page3ikon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page3 .page3txt .page3ikon div {
+  border: 3px solid #ffb400;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.page3 .page3txt .page3ikon div:hover {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  background-color: #ffb400;
+}
+
+.page3 .page3txt .page3ikon i {
+  color: #ffb400;
+  padding: 20px;
+  font-size: 35px;
+}
+
+.page3 .page3txt .page3ikon i:hover {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  color: white;
+}
+
+.page3 .page3txt .page3ikon .fa-youtube {
+  padding: 20px 18px;
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .page3 {
+    height: 1095px;
+  }
+  .page3 .page3bg {
+    height: 1190px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+            clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+  }
+  .page3 .page3about .page3photo {
+    margin: -20% 20%;
+  }
+  .page3 .page3about .page3photo img {
+    position: relative;
+  }
+  .page3 .page3txt {
+    margin-top: 20%;
+    text-align: center;
+  }
+  .page3 .page3txt .page3ikon {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .page3 {
+    height: 1100px;
+    margin: 15% 0 0 0;
+  }
+  .page3 .page3bg {
+    height: 1150px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+            clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 99%);
+  }
+  .page3 .page3about .page3photo {
+    margin: -30% 2%;
+  }
+  .page3 .page3about .page3photo img {
+    position: relative;
+  }
+  .page3 .page3txt {
+    margin-top: 30%;
+    text-align: center;
+  }
+  .page3 .page3txt .page3ikon div {
+    width: 50px;
+    height: 50px;
+  }
+  .page3 .page3txt .page3ikon i {
+    padding: 10px;
+    font-size: 23px;
+  }
+  .page3 .page3txt .page3ikon .fa-youtube {
+    padding: 10px 10px;
+  }
+}
+
+.page4 {
+  width: 100%;
+  height: 100vh;
+}
+
+.page4 .container-fluid {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.page4 .container-fluid .head {
+  text-align: center;
+}
+
+.page4 .container-fluid .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page4 .container-fluid .head h1 span {
+  color: #ffb400;
+}
+
+.page4 .container-fluid .head h5 {
+  font-size: 20px;
+  color: white;
+}
+
+.page4 .container-fluid .head .words {
+  color: #b3b0b0;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page4 .container-fluid .head .words .line1 {
+  background-color: gray;
+  width: 300px;
+  height: 1px;
+}
+
+.page4 .container-fluid .head .words i {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page4 .container-fluid .row {
+  width: 100%;
+  margin-left: 0;
+}
+
+.page4 .container-fluid .row .middle {
+  width: 320px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.page4 .container-fluid .row .middle .front, .page4 .container-fluid .row .middle .back {
+  width: 320px;
+  height: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-radius: 7px;
+}
+
+.page4 .container-fluid .row .middle .front {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  color: #ffb400;
+  background-color: #151515;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page4 .container-fluid .row .middle .front i {
+  font-size: 30px;
+}
+
+.page4 .container-fluid .row .middle .back {
+  background-color: #151515;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  position: relative;
+}
+
+.page4 .container-fluid .row .middle .back i {
+  color: #ffb400;
+  margin: -40px;
+  font-size: 170px;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page4 .container-fluid .row .middle .back .back-content {
+  color: white;
+  width: 320px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.page4 .container-fluid .row .middle:hover > .front {
+  -webkit-transform: perspective(0px) rotateY(-180deg);
+          transform: perspective(0px) rotateY(-180deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.page4 .container-fluid .row .middle:hover > .back {
+  -webkit-transform: perspective(0px) rotateY(0deg);
+          transform: perspective(0px) rotateY(0deg);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 650px) {
+  .page4 {
+    margin: 25% 0 0 0;
+  }
+}
+
+.page5 {
+  width: 100%;
+  height: 90vh;
+}
+
+.page5 .page5bg {
+  padding-top: 100px;
+  z-index: 1;
+  width: 100%;
+  height: 90vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page5 .head {
+  text-align: center;
+}
+
+.page5 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page5 .head h1 span {
+  color: #ffb400;
+}
+
+.page5 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .page5 {
+    margin: 200% 0 0 0;
+  }
+}
+
+.page6 {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+.page6 .head {
+  text-align: center;
+}
+
+.page6 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page6 .head h1 span {
+  color: #ffb400;
+}
+
+.page6 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page6 .head .words {
+  color: #b3b0b0;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page6 .head .words .line1 {
+  background-color: gray;
+  width: 300px;
+  height: 1px;
+}
+
+.page6 .head .words i {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page6 .btns {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page6 .btns button {
+  width: 170px;
+  height: 40px;
+  border: 2px solid #ffb400;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+}
+
+.page6 .btns button .fas {
+  position: absolute;
+  opacity: 0;
+  color: white !important;
+  font-size: 30px;
+}
+
+.page6 .btns button:hover {
+  background-color: #ffb400;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.page6 .card .fas {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  top: 30%;
+  left: 40%;
+  opacity: 0;
+}
+
+.page6 .card .card-body h6 {
+  color: white;
+}
+
+.page6 .card .card-body h6 span {
+  color: #ffb400;
+  margin: 0 10px 0 0;
+}
+
+.page6 .card .card-body p {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.page6 .card img:hover {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page6 .card img:hover .fas {
+  opacity: 1;
+}
+
+.page6 .row {
+  margin: 50px 0 0 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .page6 button {
+    margin: 15px 0 0 0;
+  }
+}
+
+.page7 {
+  margin: 40% 0 0 0;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.page7 .page7bg {
+  padding-top: 100px;
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page7 .head {
+  text-align: center;
+}
+
+.page7 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page7 .head h1 span {
+  color: #ffb400;
+}
+
+.page7 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page7 .container .col-sm-12 {
+  text-align: center;
+}
+
+.page7 .container .col-sm-12 i {
+  color: white;
+  font-size: 90px;
+}
+
+.page7 .container .col-sm-12 p {
+  color: #ffb400;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.page7 .container .col-sm-12 h5 {
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .page7 {
+    margin: 550% 0 130% 0;
+    width: 100%;
+  }
+  .page7 .page7bg {
+    height: 1200px;
+  }
+}
+
+.page8 {
+  width: 100%;
+  height: 100vh;
+}
+
+.page8 .head {
+  text-align: center;
+}
+
+.page8 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page8 .head h1 span {
+  color: #ffb400;
+}
+
+.page8 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page8 .words {
+  color: #b3b0b0;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page8 .words .line1 {
+  background-color: gray;
+  width: 300px;
+  height: 1px;
+}
+
+.page8 .words i {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page8 .row {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.page8 .row .card .card-body {
+  text-align: center;
+  color: white;
+  border-top: 3px solid #ffb400;
+}
+
+.page8 .row .card .card-body p {
+  color: white;
+}
+
+.page8 .row .card .page8ikon {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  opacity: 0;
+}
+
+.page8 .row .card .page8ikon div {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.page8 .row .card .page8ikon i {
+  color: white;
+  padding: 7px;
+  font-size: 20px;
+}
+
+.page8 .row .card .page8ikon i:hover {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  color: #ffb400;
+}
+
+.page8 .row .card:hover img {
+  opacity: 60%;
+}
+
+.page8 .row .card:hover .card-body {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #ffb400;
+}
+
+.page8 .row .card:hover .page8ikon {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 650px) {
+  .page8 {
+    margin: 0 0 230% 0;
+  }
+  .page8 .card {
+    margin: 0 0 30px 0;
+  }
+}
+
+.page9 .page9bg {
+  padding-top: 100px;
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page9 .head {
+  text-align: center;
+}
+
+.page9 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page9 .head h1 span {
+  color: #ffb400;
+}
+
+.page9 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page9 .head p {
+  font-size: 15px;
+  color: #eee;
+}
+
+.page9 .container .msgbtn {
+  width: 600px;
+  height: 40px;
+  position: relative;
+  left: 25%;
+}
+
+.page9 .container .msgbtn #msg {
+  float: left;
+  height: 40px;
+  width: 50px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background-color: #ffb400;
+  padding: 6px 0 0 15px;
+}
+
+.page9 .container .msgbtn #msg i {
+  color: white;
+}
+
+.page9 .container .msgbtn input {
+  width: 550px;
+  height: 40px;
+  border: none;
+  border-radius: 0px 20px 20px 0;
+  padding-left: 20px;
+}
+
+.page9 .container button {
+  padding: 5px 20px;
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+  background-color: #ffb400;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  left: 40%;
+}
+
+.page9 .container .fas {
+  position: absolute;
+  opacity: 0;
+  margin: 5px 0 0 -20px;
+}
+
+.page9 .container button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.page9 .container button:hover .fas {
+  opacity: 1;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 650px) {
+  .page9 #msg {
+    position: relative;
+    right: 20%;
+  }
+  .page9 input {
+    position: relative;
+    right: 20%;
+    width: 400px !important;
+  }
+  .page9 .container button {
+    position: relative;
+    left: 25%;
+  }
+}
+
+.page10 {
+  width: 100%;
+  height: 100vh;
+  margin: 6% 0 0 0;
+}
+
+.page10 .head {
+  text-align: center;
+}
+
+.page10 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page10 .head h1 span {
+  color: #ffb400;
+}
+
+.page10 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page10 .words {
+  color: #b3b0b0;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page10 .words .line1 {
+  background-color: gray;
+  width: 300px;
+  height: 1px;
+}
+
+.page10 .words i {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page10 .row {
+  width: 80%;
+  margin: 6% auto;
+}
+
+.page10 .row .card .card-body {
+  color: white;
+  margin: 0 0 0 -10px;
+}
+
+.page10 .row .card .card-body h5 {
+  font-size: 16px;
+}
+
+.page10 .row .card .card-body p {
+  font-size: 14px;
+}
+
+.page10 .row .card .date {
+  position: absolute;
+  background-color: #ffb400;
+  width: 40px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+  left: 83%;
+  top: 4%;
+}
+
+.page10 .row .card .date span {
+  font-weight: 800;
+}
+
+.page10 .row .card img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.page10 button {
+  padding: 5px 20px;
+  height: 42px;
+  background-color: #ffb400;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  top: -8%;
+  margin: 0 0 0 44%;
+}
+
+.page10 .fas {
+  position: absolute;
+  opacity: 0;
+  margin: 5px 0 0 -20px;
+}
+
+.page10 button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.page10 button:hover .fas {
+  opacity: 1;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 650px) {
+  .page10 button {
+    margin: 15% 0 0 30%;
+  }
+}
+
+.page11 .page11bg {
+  padding-top: 100px;
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("https://images-ext-1.discordapp.net/external/ff8LJ6wvY2S3smHiiJ_dTvy84Dk5iufAiuyeaY3ZUgE/http/slimhamdi.net/salimo/demos/img/sections/video-bg.jpg?width=1441&height=586");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/ff8LJ6wvY2S3smHiiJ_dTvy84Dk5iufAiuyeaY3ZUgE/http/slimhamdi.net/salimo/demos/img/sections/video-bg.jpg?width=1441&height=586");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page11 .head {
+  text-align: center;
+}
+
+.page11 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page11 .head h1 span {
+  color: #ffb400;
+}
+
+.page11 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page11 .head p {
+  font-size: 15px;
+  color: #eee;
+}
+
+.page11 .playbtn {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.page11 .playbtn .circle {
+  stroke: #f8aa28;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+}
+
+.page11 .playbtn .playBut {
+  /*  border: 1px solid red;*/
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.page11 .playbtn .playBut .triangle {
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  stroke-dasharray: 240;
+  stroke-dashoffset: 480;
+  stroke: #fff;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.page11 .playbtn .playBut:hover .triangle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  stroke: #f8aa28;
+  -webkit-animation: nudge 0.7s ease-in-out;
+          animation: nudge 0.7s ease-in-out;
+}
+
+@-webkit-keyframes nudge {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  70% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes nudge {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  70% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.page11 .playbtn .playBut:hover .circle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 650px) {
+  .page11 {
+    margin: 110% 0 0 0;
+  }
+  .page11 .playbtn {
+    position: relative;
+    left: 10%;
+  }
+}
+
+.page12 {
+  width: 100%;
+  height: 100vh;
+  margin: 5% 0 0 0;
+}
+
+.page12 .page12bg {
+  padding-top: 100px;
+  z-index: 4;
+  width: 100%;
+  height: 100vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("../imgs/contactform-bg.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../imgs/contactform-bg.jpg") !important;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page12 .head {
+  text-align: center;
+}
+
+.page12 .head h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page12 .head h1 span {
+  color: #ffb400;
+}
+
+.page12 .head h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.page12 .container {
+  width: 800px;
+  margin: 10px auto;
+}
+
+.page12 .container .userbtn {
+  width: 600px;
+  height: 40px;
+  position: relative;
+  left: 25%;
+}
+
+.page12 .container .userbtn #user {
+  float: left;
+  height: 45px;
+  width: 50px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background-color: #ffb400;
+  padding: 8px 0 0 19px;
+}
+
+.page12 .container .userbtn #user i {
+  color: white;
+}
+
+.page12 .container .userbtn input {
+  width: 300px;
+  height: 45px;
+  border: none;
+  border-radius: 0px 20px 20px 0;
+  padding-left: 20px;
+}
+
+.page12 .container .msgbtn input {
+  width: 750px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin: 5% 0 0 12%;
+}
+
+.page12 .container .emailbtn {
+  width: 600px;
+  height: 40px;
+  position: relative;
+  left: 25%;
+  margin: 3% 0 0 0;
+}
+
+.page12 .container .emailbtn #email {
+  float: left;
+  height: 45px;
+  width: 50px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background-color: #ffb400;
+  padding: 8px 0 0 19px;
+}
+
+.page12 .container .emailbtn #email i {
+  color: white;
+}
+
+.page12 .container .emailbtn input {
+  width: 300px;
+  height: 45px;
+  border: none;
+  border-radius: 0px 20px 20px 0;
+  padding-left: 20px;
+}
+
+.page12 .container button {
+  width: 320px;
+  height: 45px;
+  background-color: #ffb400;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  top: 23%;
+  margin: 0 0 0 34%;
+}
+
+.page12 .container .fab {
+  position: absolute;
+  opacity: 0;
+  margin: 5px 0 0 -20px;
+}
+
+.page12 .container button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.page12 .container button:hover .fab {
+  opacity: 1;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 650px) {
+  .page12 {
+    margin: 0 0 30% 0;
+  }
+  .page12 .container {
+    position: relative;
+    right: 20%;
+  }
+  .page12 .container .userbtn {
+    margin: 20px 0 0 0;
+  }
+  .page12 .container .msgbtn input {
+    width: 480px;
+  }
+  .page12 .container button {
+    position: relative;
+    right: 7%;
+  }
+}
+
+.page13 {
+  width: 100%;
+  height: 10vh;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+.page13 .slider {
+  height: 100px;
+  margin: 7% auto;
+  overflow: hidden;
+  position: relative;
+  width: 1000px;
+}
+
+.page13 .slider img {
+  width: 110px;
+  height: 30px;
+  opacity: 0.7;
+}
+
+.page13 .slider::before, .page13 .slider::after {
+  background: -webkit-gradient(linear, left top, right top, from(0%), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to right, 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.page13 .slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.page13 .slider::before {
+  left: 0;
+  top: 0;
+}
+
+.page13 .slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.page13 .slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.page14 {
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 40vh;
+}
+
+.page14 .page14bg {
+  padding-top: 100px;
+  z-index: 4;
+  width: 100%;
+  height: 40vh;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page14 .page14bg .container h5 {
+  color: #dadada;
+  font-size: 15px;
+  text-align: center;
+}
+
+.page14 .page14bg .container p {
+  color: #dadada;
+  font-size: 13px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.page14 .page14bg .container .page14ikon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: 20px;
+  left: 35%;
+}
+
+.page14 .page14bg .container .page14ikon div {
+  border: 2px solid #ffb400;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.page14 .page14bg .container .page14ikon div:hover {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  background-color: #ffb400;
+}
+
+.page14 .page14bg .container .page14ikon i {
+  color: #ffb400;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.page14 .page14bg .container .page14ikon i:hover {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  color: white;
+}
+
+.page14 .page14bg .container .page14ikon .fa-youtube {
+  padding: 10px 7px;
+}
+
+@media only screen and (max-width: 650px) {
+  .page14 .page14ikon {
+    position: absolute;
+    right: 40% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

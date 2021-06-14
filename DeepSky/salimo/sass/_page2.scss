@@ -1,0 +1,153 @@
+    
+    .container-fluid{
+        padding-left: 10%;
+        padding-right: 10%;
+        .sec3head{
+            text-align: center;
+            h1{
+                color: white;
+                font-size: 50px;
+                font-weight: 700;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                span{
+                    color: #ffb400; 
+                }
+            }
+            h6{
+                font-size: 20px;
+                color: white;
+            }
+            .outertext{
+                color: rgb(179, 176, 176);
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                .line1{
+                    background-color: gray;
+                    width: 300px;
+                    height: 1px;
+                }
+                i{
+                    font-size: 20px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+        }
+        .sec3about{
+            .leftside{
+                height: 400px;
+                padding-left: 0px;
+                p{
+                    font-size: 15px;
+                }
+                h2, p{
+                    color: white;
+                }
+                hr{
+                    background-color:rgb(68, 68, 68);
+                }
+                span{
+                    color: white;
+                    cursor: pointer;
+                }
+                button {
+                    padding: 5px 20px;
+                    
+                    height: 40px;
+                    background-color: #ffb400;
+                    border: none;
+                    border-radius: 20px;
+                    color: white;
+                }
+        
+                    .fas{
+                        
+                        position: absolute;
+                        opacity: 0;
+                        margin: 5px 0 0 -20px;
+                        
+                    }
+                  
+                  button:hover{
+                    padding-right: 24px;
+                    padding-left:8px;
+                    transition: 0.9s;
+                    .fas{
+                        opacity: 1;
+                        transform: translateX(25px);
+                        transition: 0.5s;
+                    }
+                    
+                  }
+                .sec3nav{
+                    .missionnav, .advnav{
+                        padding-right: 25px;
+                        border-right: 1px solid white;
+                    }
+                    .advnav, .guarnav{
+                        padding-left: 25px;
+                    }
+                    .missionnav, .guarnav:active{
+                        color: #ffb400; 
+                    }
+                    .style1{
+                        color: #ffb400; 
+                    }
+                }
+                #navcontent2, #navcontent3{
+                    display: none;
+                }
+            }
+            .rightside{
+                .imgbox{
+                    width: 500px;
+                    height: 344px;
+                    border: 2px solid #ffb400; 
+                    border-radius: 5px;
+                    float: right;
+                    position: relative;
+                }
+                .rightsideimg{
+                    width: 500px;
+                    height: 344px;
+                    background-image: url("http://slimhamdi.net/salimo/demos/img/about.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:650px) {
+        .page2{
+            height: 1000px;
+            margin: 10% 0 0 0;
+              
+           .rightside{
+               margin: 20% 0 0 0;
+               width: 500px;
+            //    width: 400px;
+               .imgbox{
+                   width: 450px !important;
+                   height: 190px;
+                   position: relative;
+                   right: 6%;
+
+               }
+               .rightsideimg{
+                   width: 450px !important;
+                   height: 190px;
+                   position: relative;
+                   right: 12%;
+               }
+           }
+        }
+
+    }

@@ -1,0 +1,77 @@
+.page14{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 40vh;
+    // margin: 5% 0 0 0;
+    .page14bg{
+        padding-top: 100px;
+        z-index: 4;
+        width: 100%;
+        height: 40vh;
+        clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    
+    
+    .container{
+        
+        // margin: 80px auto;
+        h5{
+            color: rgb(218, 218, 218);
+            font-size: 15px;
+            text-align: center;
+        }
+        p{
+            color: rgb(218, 218, 218);
+            font-size: 13px;
+            text-align: center;
+            margin: 10px 0 0 0 ;
+        }
+        .page14ikon{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top: 20px;
+            left: 35%;
+            
+            div{
+                border: 2px solid #ffb400; 
+                width: 40px;
+                height: 40px;
+                margin-left: 10px;
+                border-radius: 50%;
+                text-align: center;
+                &:hover{
+                    transition: color 0.5s;
+                    background-color: #ffb400; 
+                }
+            }
+            i{
+            color: #ffb400; 
+            padding: 10px;
+            font-size: 20px;
+            &:hover{
+            -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            color: white;
+            }
+            
+        }
+        .fa-youtube{
+            padding: 10px 7px;
+        }
+       
+        }
+    }
+}
+}
+
+@media only screen and (max-width:650px) {
+.page14{
+    .page14ikon{
+        position:absolute;
+        right: 40% !important;
+    }
+}
+}

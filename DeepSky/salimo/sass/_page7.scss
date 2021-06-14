@@ -1,0 +1,70 @@
+.page7{
+    margin: 40% 0 0 0;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    .page7bg{
+        padding-top: 100px;
+        
+        z-index: 1;
+    width: 100%;
+    height: 70vh;
+   
+    clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    .head{
+        
+        text-align: center;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            span{
+                color: #ffb400;
+            }
+        }
+        h5{
+            font-size: 18px;
+            color: white;
+        }
+      
+    }
+
+    .container{
+        .col-sm-12{
+            text-align: center;
+            i{
+                color: white;
+                font-size: 90px
+              }
+              p{
+                 color: #ffb400;
+                 font-size: 40px;
+                 font-weight: 900;
+                 margin-top: 10px;
+                 
+              }
+              h5{
+                  color: white;
+                  font-size: 20px;
+              }
+        }
+        
+    }
+    
+}
+
+@media only screen and (max-width:650px) {
+.page7{
+    margin: 550% 0 130% 0;
+    width: 100%;
+    .page7bg{
+        height: 1200px;
+    }
+}
+}

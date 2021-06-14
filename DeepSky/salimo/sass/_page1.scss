@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(31, 31, 31);
+    
+        max-width: 100%;
+        overflow-x: hidden;
+    
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    // position: absolute;
+    background-color: rgb(49, 49, 49);
+
+    
+
+    .container-fluid{
+      
+          .navbar{ 
+
+            position: absolute;
+            z-index: 2;
+            color: white !important;
+            .navbar-nav{
+                margin: 0 0 0 100px;
+                .nav-link{
+                    
+                    color: white;
+                    
+                            font-family:Arial, Helvetica, sans-serif;
+                            font-size: 13px !important;
+                    ul li{   
+                        a{
+                             
+                            .fas{
+                                color: white !important;
+                            }
+                        }
+                    }
+                }
+                .nav-link:hover{
+                    color: #ffb400;
+                }
+               
+            }
+        }
+    }
+    .carousel-inner{
+        img{
+            width: 100%;
+            height: 100vh !important;
+            animation: zoom1 5s;
+        }
+        @keyframes zoom1 {
+            from {
+              
+              width: 100%; 
+            }
+          
+            to {
+              
+              width: 105%;
+            }
+        }
+
+    
+    .page1text {
+        position: absolute;
+        z-index: 8;
+        width: 780px;
+        height: 500px;
+        margin: 20% 0 0 25%;
+        text-align: center;
+        color: white;
+        // p {
+        //     font-size: 18px;
+        // }
+        h1 {
+            font-size: 70px;
+            font-weight: bold;
+            animation: slide-left 2s;
+        }
+        @keyframes slide-left {
+            from {
+              margin-left: 100%;
+              width: 300%; 
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+        }
+        p{
+            animation: slide-bottom 2s;
+        }
+        @keyframes slide-bottom {
+            from{
+                margin-top: 100%;
+
+            }
+            to{
+                margin-top: 0%;
+            }
+            
+        }
+        button {
+            padding: 5px 20px;
+            margin-top: 50px;
+            height: 40px;
+            background-color: #ffb400;
+            border: none;
+            border-radius: 20px;
+            color: white;
+        }
+
+            .fas{
+                
+                position: absolute;
+                opacity: 0;
+                margin: 5px 0 0 -20px;
+                
+            }
+          
+          button:hover{
+            padding-right: 24px;
+            padding-left:8px;
+            transition: 0.9s;
+            .fas{
+                opacity: 1;
+                transform: translateX(25px);
+                transition: 0.5s;
+            }
+            
+          }
+          
+          
+ 
+    }
+    .circle1 {
+        
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 80px;
+        height: 80px;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg");
+        
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle2 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 80px;
+        height: 80px;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle3 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 80px;
+        height: 80px;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle4 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 80px;
+        height: 80px;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns3.jpg");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle5 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        left: 95px;
+        width: 80px;
+        height: 80px;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns2.jpg");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .circle6 {
+        display: none;
+        position: absolute;
+        top: 45%;
+        right: 95px;
+        width: 80px;
+        height: 80px;;
+        background-image: url("http://slimhamdi.net/salimo/demos/img/revolution-slider/kenburns/kenburns1.jpg");
+        background-size: 100% 100%;
+        border-radius: 50%;
+        z-index: 8;
+    }
+    .carousel-item {
+        img {
+            box-shadow: 20px 20px 50px 10px black inset;
+            width: 100%;
+            height: 1000px;
+            filter: brightness(60%);
+        }
+    }
+}
+}
+
+@media only screen and (max-width:650px) {
+.page1{
+    // img{
+    //     margin: 0 80% 0 0;
+    // }
+    // button{
+    //     position: relative;
+    //     right: 30%;
+    // }
+    .page1text{
+        position: relative;
+        left: -50%;
+        top: 40%;
+
+        h1{
+            font-size: 30px !important;
+        }
+    }
+}
+}

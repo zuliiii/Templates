@@ -1,0 +1,116 @@
+.page6{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    .head{
+        
+        text-align: center;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            span{
+                color: #ffb400;
+            }
+        }
+        h5{
+            font-size: 18px;
+            color: white;
+        }
+        .words{
+            color: rgb(179, 176, 176);
+            height: 20px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            .line1{
+                background-color: gray;
+                width: 300px;
+                height: 1px;
+            }
+            i{
+                font-size: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+      
+    }
+    .btns{
+        text-align: center;
+        margin-top: 50px;
+        button {
+            width: 170px;
+            height: 40px;
+            border: 2px solid #ffb400;
+            border-radius: 20px;
+            color: white;
+            background-color: transparent;
+        
+    
+            .fas{
+                 position: absolute;
+                opacity: 0;
+                color: white !important;
+                font-size: 30px;
+            }
+        }
+        button:hover{
+            background-color: #ffb400;
+            transition: 0.5s;
+        }
+    }
+    .card{
+
+        .fas{
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            z-index: 2;
+            top: 30%;
+            left: 40%;
+            opacity: 0;
+        }
+    
+        .card-body{
+            
+            
+            h6{
+                color: white;
+                span{
+                    color: #ffb400;
+                    margin: 0 10px 0 0;
+                }
+            }
+            p{
+                color: #ccc;
+                font-size: 14px;
+            }
+        }
+        img:hover{
+            filter:brightness(60%);
+            transition:  0.3s;
+            .fas{
+                opacity: 1;
+            }
+        }
+        
+    }
+    .row{
+        margin: 50px 0 0 0;
+        
+    }
+      
+}
+
+@media only screen and (max-width:650px) {
+.page6{
+    button{
+        margin: 15px 0 0 0;
+    }
+}
+}

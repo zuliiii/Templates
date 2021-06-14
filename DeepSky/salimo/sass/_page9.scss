@@ -1,0 +1,123 @@
+.page9{
+    .page9bg{
+        padding-top: 100px;
+        z-index: 1;
+        width: 100%;
+        height: 70vh;
+        clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("https://images-ext-1.discordapp.net/external/_KBrycIBn5Nm7p5E58espVAq1m13lLweJfP-OaGBWAA/http/slimhamdi.net/salimo/demos/img/sections/testimonials-bg.jpg?width=1441&height=586");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .head{
+        
+        text-align: center;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            span{
+                color: #ffb400;
+            }
+        }
+        h5{
+            font-size: 18px;
+            color: white;
+        }
+        p{
+            font-size: 15px;
+            color: #eee;
+        }
+      
+    }
+    .container{
+        
+    .msgbtn{
+        width: 600px;
+        height: 40px;
+        position: relative;
+        left: 25%;
+        
+        #msg{
+            float: left;
+            height: 40px;
+            width: 50px;
+            border: none;
+            border-radius: 20px 0 0 20px;
+            background-color: #ffb400;
+            padding: 6px 0 0 15px;
+            i{
+                color: white;
+            }
+        }
+        input{
+            width: 550px;
+            height: 40px;
+            border: none;
+            border-radius: 0px 20px 20px 0 ;
+            padding-left: 20px;
+            // position: relative;
+            // left: 38%;
+            
+        }
+    }
+    button {
+        padding: 5px 20px;
+        margin-top: 50px;
+        width: 250px;
+        height: 50px;
+        background-color: #ffb400;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        position: relative;
+        left: 40%;
+    }
+
+        .fas{
+            
+            position: absolute;
+            opacity: 0;
+            margin: 5px 0 0 -20px;
+            
+        }
+      
+      button:hover{
+        padding-right: 24px;
+        padding-left:8px;
+        transition: 0.9s;
+        .fas{
+            opacity: 1;
+            transform: translateX(25px);
+            transition: 0.5s;
+        }
+        
+      }
+    
+}
+}
+
+@media only screen and (max-width:650px) {
+.page9{
+    #msg{
+        position: relative;
+        right: 20%;
+        // width: 20px !important;
+    }
+    input{
+        position: relative;
+        right: 20%;
+        width: 400px !important;
+    }
+    .container{
+        button{
+            position: relative;
+            left: 25%;
+            
+        }
+    }
+   
+}
+}

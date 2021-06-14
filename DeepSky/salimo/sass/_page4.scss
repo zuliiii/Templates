@@ -1,0 +1,113 @@
+.page4{
+    
+    width: 100%;
+    height: 100vh;
+    // margin-top: -80px;
+    .container-fluid{
+        padding-left: 10%;
+        padding-right: 10%;
+        .head{
+            text-align: center;
+            h1{
+                color: white;
+                font-size: 50px;
+                font-weight: 700;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                span{
+                    color: #ffb400;
+                }
+            }
+            h5{
+                font-size: 20px;
+                color: white;
+            }
+            .words{
+                color: rgb(179, 176, 176);
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                .line1{
+                    background-color: gray;
+                    width: 300px;
+                    height: 1px;
+                }
+                i{
+                    font-size: 20px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+        }
+        .row{
+            width: 100%;
+            margin-left: 0;
+            .middle{
+                width: 320px;
+                height: 200px;
+                margin-top: 50px;
+                .front,.back{
+                    width: 320px;
+                    height: 100%;
+                    overflow:hidden;
+                    backface-visibility: hidden;
+                    position: absolute;
+                    transition-duration: 0.5s;
+                    border-radius: 7px;
+                }
+                .front{
+                    transform: rotateX(0deg);
+                    color: #ffb400;
+                    background-color: #151515;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                    i{
+                        font-size: 30px;
+                    }
+                }
+                .back{
+                    background-color: #151515;
+                    transform: rotateY(180deg);
+                    position: relative;
+                    i{
+                        color: #ffb400;
+                        margin: -40px;
+                        font-size: 170px;
+                        opacity: 0.2;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                    .back-content{
+                        color: white;
+                        width: 320px;
+                        font-size: 12px;
+                        padding-top: 10px;
+                        padding-right: 30px;
+                        padding-left: 30px;
+                    }
+                }
+            }
+            .middle:hover > .front{
+                transform: perspective(00px) rotateY(-180deg);
+                transition-duration: 0.5s;
+            }
+            .middle:hover > .back{
+                transform: perspective(00px) rotateY(0deg);
+                transform: scale(1.1);
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .page4{
+        margin: 25% 0 0 0;
+    }
+}
